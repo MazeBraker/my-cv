@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta, 
+    urlcolor=blue,
+}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Горбачев Ринат} % Your name
+\address{+7-977-751-99-01 | rgorbachev@edu.hse.ru}  % Your phone number and email
+\address{\href{https://github.com/MazeBraker}{\underline{github: MazeBraker}} | \href{https://t.me/Rinaldinho1}{{\underline
+{tg: Rinaldinho1}}}}
+
+\begin{document}
+
+\begin{rSection}{Умения}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Языки программирования \ & Python, basics of C++\\
+Фреймворки \ & Pandas, Numpy, Sklearn,  python-telegram-bot\\
+Инструменты \ & Git, Jupyter, Linux, Latex, SQL\\
+% Languages \ & Russian (native). English (Upper-Intermidiate). Kazakh(free to use) \\
+% Hobbies \ & Chess, table tennis, football, jiu-jitsu
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Образование}
+% {\bf Republican Physics and Mathematics School, Almaty} \hfill {\em September 2017 - June 2019} 
+% \begin{itemize}
+% \item Physics and Mathematics advanced profile. \hfill {\em GPA 4.3 / 5}
+% \end{itemize} 
+{\bf Высшая Школа Экономики, Москва(3й курс)} \hfill {\bf Сентябрь 2019 - Июнь 2023} 
+\begin{itemize}
+\item Бакалавриат: Прикладная математика и информатика
+% \hfill {\em GPA 7 / 10}
+\item Майнор: "Физика: От черных дыр к кубитам"
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Опыт работы}
+
+{\bf Tesla Education - образовательный центр} \hfill {\bf Ноябрь 2020 - Декабрь 2021}
+\begin{itemize}
+\item Репетитор по предметам математика и программирование. Работа заключалась в составлении заданий, чтении лекций и подготовке к экзаменам
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Курсы}
+% {\bf \href{https://github.com/MazeBraker/HSE_study}{\underline{University courses}}} \hfill {\em September 2019 - Present} 
+
+{\bf Пройденые курсы}  \hfill {\bf Осень 2019 - Зима 2021} 
+\begin{itemize}
+\item Python, C++ , Calculus, Linear Algebra, Algorithms and Data Structures, Probability theory and
+mathematical statistics
+\end{itemize}
+{\bf Текущие курсы}  \hfill {\bf Весна 2022 - Настоящее время} 
+\begin{itemize}
+\item Основные методы анализа данных, Прикладная статистика в машинном обучении, Введение в глубокое обучение, Теория баз данных и SQL
+\end{itemize}
+{\bf Факультативы}  \hfill {\bf Весна 2021 - Настоящее время} 
+\begin{itemize}
+\item Тинькофф: Анализ данных в продакшене, A/B тесты, Финтех тренды
+\item Дойче Банк: Математические модели в инвестиционных банках
+\end{itemize}
+\end{rSection}
+
+
+
+\begin{rSection}{Проекты}
+{\bf \href{https://github.com/MazeBraker/HSE_study/tree/master/3_year}{\underline{Машинное обучение и другие проекты, связанные с анализом данных}}} \hfill {\bf Настоящее время}
+\begin{itemize}
+\item Были выполнены различные задачи анализа данных с использованием таких алгоритмов машинного обучения, как регрессия, кластеризация, градиентный спуск, деревья решений, бустинг
+\end{itemize}
+{\bf \href{https://github.com/MazeBraker/HSE_study/tree/master/3_year/Theory_of_databases}{\underline {E-commerce}}} \hfill {\bf Зима 2021} 
+\begin{itemize}
+\item Проект является финальным заданием курса по теории баз данных. В результате был написан магазин электронной комерции. Использовались различные технологии: Flask, HTML, DDL, SQL
+\end{itemize}
+% {\bf \href{https://github.com/MazeBraker/HSE_study/tree/master/2_year}{\underline {Educational practice: Data analysis via python}}} \hfill {\em Summer 2021}
+% \begin{itemize}
+% \item Build a parsing tool to get news/data from kg-portal Developed a telegram bot using open source libraries and my own developments \\
+% Technologies used: Python, Numpy, pyTelegramBotAPI, Requests, Pandas, BeautifulSoup 
+% \end{itemize}
+{\bf \href{https://github.com/MazeBraker/HSE_study/tree/master/1_year/Linear_algebra}{\underline {Лабораторные работы по линейной регрессии, сжатию изображений}}} \hfill {\bf Весна 2019} 
+\begin{itemize}
+\item Были проведены многочисленные матричные вычисления, построены линейная и нелинейная регрессии с использованием MSE, сжатие изображения с помощью SVD. Используемые технологии: Numpy, Scipy, Matplotlib, Sklearn
+\end{itemize}
+\end{rSection}
+
+
+
+% \begin{rSection}{Hobbies} 
+% \begin{itemize}
+% \item Chess, table tennis, football, jiu-jitsu
+% \end{itemize}
+% \end{rSection}
+
+\end{document}
